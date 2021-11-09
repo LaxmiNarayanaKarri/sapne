@@ -1,0 +1,454 @@
+.navi
+{
+  background-color:rgb(238, 238, 238);
+  
+}
+#toggle
+{
+    background-color:grey;
+    color:pink;
+}
+#gul
+{
+    position: relative;
+    margin-left:1px;
+    font-size:35px;
+    padding-left:5px;
+    color:black;
+    font-weight:500;
+}
+.scroll
+{
+    margin: 0 auto;
+    white-space: nowrap;
+    height:50px;
+    background-color:rgb(236, 229, 229);
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+.scroll span
+{
+    display: inline-block;
+    padding-left: 100%;
+    position: relative;
+    padding-top:10px;
+    color:black;
+    animation:move 20s linear infinite;
+    z-index:4;
+}
+.scroll :hover{
+    animation-play-state: paused;
+}
+#about
+{
+    height:50px;
+    background-color: goldenrod;
+
+}
+.iann
+{
+    position: relative;
+    top:115px;
+
+}
+#vol11
+{
+    font-size:25px;
+    font-weight:700;
+}
+.ianne
+{
+    position:relative;
+    background-color: rgb(236, 236, 236);
+    height:240px;
+    top:-150px;
+    z-index: -1;
+}
+.ianh2
+{
+    font-size:25px;
+    font-weight:750;
+}
+.fe1
+{
+    margin-left:8px;
+    margin-right:8px;
+    box-shadow:2px 4px 5px grey;
+}
+.footpara1
+{
+  position: relative;
+  left:90px;
+  top:-80px;
+}
+.follow
+{
+    position:relative;
+    top:-15px;
+}
+.footadd
+{
+    position: relative;
+    top:-40px;
+}
+.footadd span
+{
+    font-size:20px;
+    position:relative;
+    padding-left:8px;
+    top:5px;
+}
+.footer
+{
+    background-color:black;
+    color:whitesmoke;
+    width:100%;
+    height:100%;
+}
+.foot2
+{
+    font-size:55px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.parti
+{
+    font-size:18px;
+    font-weight:500;
+}
+.ian1
+{
+    margin-left:60px;
+    margin-right:60px;
+    box-shadow:2px 4px 5px grey;
+}
+.part
+{
+    margin-left:60px;
+    margin-right:60px;
+    box-shadow:2px 4px 5px grey;
+}
+#vol12
+{
+    font-size:18px;
+    font-weight:300;
+}
+#vol13
+{
+    font-size:15px;
+    font-weight:500;
+    padding-left:7%;
+    padding-right:7%;
+}
+#volun
+{
+    height:520px;
+    background-color:#F3BB06;
+}
+#fevent
+{
+    height:50px;
+    background-color:#F3BB06;
+}
+#vip
+{
+    font-size:20px;
+    font-weight:650;
+}
+#wwe
+{
+    font-size:18px;
+    font-weight:500;
+    position:realtive;
+}
+#whoi
+{
+
+    font-size:18px;
+    font-weight:500;
+}
+#dp
+{
+    font-size:20px;
+    font-weight:450;
+}
+.cards
+{
+    margin-left:20px;
+    margin-right:20px;
+    padding:15px;
+}
+#table
+{
+    height:480px;
+    width:98%;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+Table thead 
+{
+    position: sticky;
+	top:0;
+}
+#ianof p
+{
+    font-size:18px;
+    position:relative;
+    top:13px;
+}
+Table tbody tr:hover
+{
+    background-color:rgb(226, 226, 226);
+}
+Table thead
+{
+    background-color: rgb(236, 236, 236) ;
+    color:black
+}
+#ianof
+{
+    height:60px;
+    background-color:#F3BB06;
+    font-size:15px;
+}
+#aboutcenter span
+{
+    font-size:30px;
+    font-weight:700;
+}
+.scroll span a
+{
+    position:relative;
+    color: black;
+    text-decoration: none;
+    font-size:17px;
+    font-weight:500;
+    padding-right:25px;
+    z-index: 0;
+}
+.scroll span a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+@keyframes move 
+{
+    to{transform: translateX(-100%);}
+    
+}
+#head
+{
+    position: relative;
+    left:10%;
+}
+#w:hover,#w1:hover,#w2:hover,#w3:hover,#w4:hover,#w5:hover,#w6:hover
+{
+    color:rgb(228, 104, 124);
+    
+}
+#fw:hover,#fw1:hover,#fw2:hover,#fw3:hover,#fw4:hover,#fw5:hover,#fw6:hover
+{
+    color:pink;
+    
+}
+#w,#w1,#w2,#w3,#w4,#w5,#w6
+{
+    font-size:18px;
+    text-decoration: none;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight:500;
+    color:black;
+}
+#fw,#fw1,#fw2,#fw3,#fw4,#fw5,#fw6
+{
+    font-size:18px;
+    text-decoration: none;
+    position: relative;
+    padding-left:10px;
+    font-weight:500;
+    color:whitesmoke;
+}
+#img
+{
+    position:relative;
+
+}
+#foot
+{
+    position: relative;
+    margin-top:71vh;
+}
+#paraabout
+{
+    width:65vw;
+    font-size:20px;
+    font-weight: 500;
+}
+#divofpara
+{
+    position: relative;
+    top:20px;
+    left:20px;
+}
+#aboutim
+{
+    position:absolute;
+    top:20%;
+    left:70%;
+
+}
+#trophy
+{
+
+    position:relative;
+    top:70px;
+    font-size:55px;
+    color: red;
+}
+#trophy
+{
+    position: relative;
+    left:22%;
+}
+#eye
+{
+    position: relative;
+    font-size:55px;
+    color: red;
+    left:39%;
+}
+#combine
+{
+    position: relative;
+    height:400px;
+}
+#mission
+{
+    position:absolute;
+    width:40vw;
+    top:137px;
+    left:8%;
+}
+#mhead
+{
+    position: relative;
+    left:30%;
+}
+#vision
+{
+    position:relative;
+    width:40vw;
+    top:28px;
+    left:56%;
+}
+#bottom
+{
+    height:400px;
+    position:absolute;
+}
+#vhead
+{
+    position: relative;
+    left:38%;
+}
+#botcont
+{
+    background-color:gold;
+    position: relative;
+    top:5%;
+    height:400px;
+    width:1350px;
+}
+#botim
+{
+    position: relative;
+    width:15vw;
+    height:15vw;
+    left:2%;
+    top:40px;
+}
+#botthe
+{
+    position:relative;
+    top:80px;
+    left:2%;
+    font-size:2vw;
+}
+#botlink
+{
+    position:relative;
+    left:33%;
+    
+}
+.lw
+{
+    padding:7px;
+}
+#contis
+{
+    position: relative;
+    left:-20px;
+}
+.ah
+{
+    text-decoration: none;
+    color:black
+}
+#addr
+{
+    position: relative;
+    left:65%;
+    top:-247px;
+    
+}
+#p1,#p3
+{
+    width:100vw;
+    font-size:1.5vw;
+}
+#p2
+{
+    width:32vw;
+    font-size:1.5vw;
+}
+#home
+{
+    width:29vw;
+    box-shadow: 2px 2px 2px 3px grey;
+    position:absolute;
+    height:29vw;
+    left:5%;
+    overflow:scroll;
+}
+#contai
+{
+    position: relative;
+    height:400px;
+    top:25px;
+
+}
+#comment
+{
+    width:29vw;
+    box-shadow: 2px 2px 2px 3px grey;
+    position:absolute;
+    height:29vw;
+    left:72%;
+    overflow:scroll;
+}
+#mail
+{
+    width:30vw;
+    box-shadow: 2px 2px 2px 3px grey;
+    position:absolute;
+    height:29vw;
+    left:38%;
+    overflow:scroll;
+    
+}
+#ihome,#imail,#icomm
+{
+    font-size:35px;
+}
